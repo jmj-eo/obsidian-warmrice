@@ -167,59 +167,12 @@ body {
 .markdown-rendered hr { border-color: var(--background-modifier-border); }
 
 /* ── Tooltip (file hover) ── */
-.tooltip {
-  background: #faf8f5 !important;
-  color: #3a3a3a !important;
-  border: 1px solid #e8e3dd !important;
-  border-radius: 6px !important;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
-}
-
-/* ── Hover Popover (page preview) ── */
-.hover-popover {
-  background: #faf8f5 !important;
-  border: 1px solid #e8e3dd !important;
-  border-radius: 10px !important;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.12) !important;
-  --text-normal: #3a3a3a;
-  --text-muted: #8a8a8a;
-  --text-faint: #b5b0aa;
-  --text-accent: #7a9e7e;
-  --background-primary: #faf8f5;
-  --background-secondary: #f5f2ee;
-}
-.hover-popover,
-.hover-popover .markdown-preview-view,
-.hover-popover .markdown-preview-view *,
-.hover-popover .markdown-embed,
-.hover-popover .markdown-embed *,
-.hover-popover .internal-embed,
-.hover-popover .internal-embed *,
-.hover-popover .inline-title,
-.hover-popover .markdown-embed-title,
-.hover-popover .embed-title,
-.hover-popover .markdown-preview-section,
-.hover-popover .markdown-preview-sizer,
-.hover-popover .markdown-rendered,
-.hover-popover .markdown-rendered *,
-.hover-popover div,
-.hover-popover span,
-.hover-popover p,
-.hover-popover h1,
-.hover-popover h2,
-.hover-popover h3,
-.hover-popover h4,
-.hover-popover h5,
-.hover-popover h6,
-.hover-popover a,
-.hover-popover li,
-.hover-popover td,
-.hover-popover th,
-.hover-popover strong,
-.hover-popover em,
-.hover-popover code,
-.hover-popover pre,
-.hover-popover small,
-.hover-popover label {
-  color: #3a3a3a !important;
+body .tooltip,
+.tooltip.mod-right,
+.tooltip.mod-left {
+  background: #faf8f5;
+  color: #3a3a3a;
+  border: 1px solid #e8e3dd;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
