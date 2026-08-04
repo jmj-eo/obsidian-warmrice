@@ -1,1 +1,6 @@
-{"name":"WarmRice","version":"1.0.2","minAppVersion":"1.0.0","author":"qinji"}
+{
+	"name": "WarmRice",
+	"version": "1.0.2",
+	"minAppVersion": "1.13.0",
+	"author": "qinji"
+}

@@ -78,7 +78,7 @@ body {
   --calendar-dot: #7a9e7e;
 
   /* Canvas */
-  --canvas-color: 122, 158, 126;
+  --canvas-color: rgb(122, 158, 126);
 
   /* Tags */
   --tag-background: #7a9e7e;
